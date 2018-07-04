@@ -1,0 +1,45 @@
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta charset="utf-8">
+
+{% if site.name %}
+<meta name="author" content="{{ site.name }}">
+<meta name="copyright" content="&copy; {{ site.name }} {{ site.time | date: '%Y' }}">
+{% endif %}
+<meta name="robots" content="index follow">
+<meta name="googlebot" content="index follow">
+<meta name="keywords"
+      content="Software, Sensor, Geodaten, Sensorgetrieben, Analyse, Beratung, Integration, IT-Systeme, Sensornetz">
+<meta name="description"
+      content="Pikobytes entwickelt Softwarelösungen für sensorgetriebene Anwendungen. Wir sind spezialisiert auf die Integration und visuelle Analyse von Geodaten.">
+
+<!-- Mobile Configurations ======================================================================== -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+<!-- fav and icons for Mobile ======================================================================== -->
+<link rel="shortcut icon" href="{{ '/assets/images/icons/favicon.png' | prepend: site.baseurl }}">
+<link rel="apple-touch-icon" sizes="512x512" href="{{ '/assets/images/icons/apple-touch-icon.png' | prepend: site.baseurl }}">
+
+<!--  CSS Files ======================================================================== -->
+<link rel="stylesheet" href="{{ '/assets/css/fonts.css' | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ '/assets/js/vendor/bootstrap/css/bootstrap.min.css' | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ '/assets/fonts/font-awesome/css/font-awesome.min.css' | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ '/assets/css/social-icons.css' | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ '/assets/js/plugins/swiper/css/swiper.min.css' | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ '/assets/js/plugins/mediaelement/css/mediaelementplayer.min.css' | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ '/assets/js/plugins/fancybox/jquery.fancybox.min.css' | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ '/assets/js/plugins/wow/css/animate.min.css' | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ '/assets/css/critical.css' | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ '/assets/css/responsive.css' | prepend: site.baseurl }}">
+
+<!--  Head JS Libs ======================================================================== -->
+<script src="{{ '/assets/js/vendor/modernizr-custom.js' | prepend: site.baseurl }}"></script>
+
+<!--  OpenGraph tags for social media sharing ======================================================================== -->
+<meta property="og:title" content="Pikobytes – Website">
+<meta property="og:site_name" content="Pikobytes – Data-driven software and consulting.">
+<meta property="og:description" content="Pikobytes entwickelt Softwarelösungen für sensorgetriebene Anwendungen. Wir sind spezialisiert auf die Integration und visuelle Analyse von Geodaten.">
+<meta property="og:image" content="https://www.pikobytes.de/images/uploads/pikobytesAdImage.jpg">
+<meta property="og:type" content="website">

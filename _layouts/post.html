@@ -1,0 +1,105 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<!--[if IE 9 ]>
+<html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+
+<head>
+  {% include head.html %}
+</head>
+
+<body>
+
+
+<!-- UP Button ======================================================================== -->
+<div id="up-button"><a href="#" title="To Top"><i class="fa fa-angle-up"></i></a></div>
+
+
+<!-- Main Wrapper ======================================================================== -->
+{% include loader.html %}
+
+<div id="main-wrapper">
+
+  <!-- Navigation ==================================================================== -->
+  {% include navigationFull.html %}
+
+  <!-- Content ==================================================================== -->
+  {% if page.featured-img %}
+    <div class="hero lazyload" data-bg="{{site.url}}/assets/images/posts/{{page.featured-img}}.jpg">
+    {% else %}
+    <div class="hero dark-bg">
+  {% endif %}
+
+      <div class="hero__wrap">
+        <h2 class="hero__title">{{ page.title }}</h2>
+        <p class="hero__meta">
+            <span>
+              <time>{{ page.date | date_to_string }}</time>&nbsp;
+            </span>
+          <span>
+              {% assign words = content | number_of_words %}
+                {% if words < 360 %}
+                  1 min
+                {% else %}
+                  {{ words | divided_by:180 }} mins
+              {% endif %} read
+              &nbsp;
+          </span>
+        </p>
+      </div>
+    </div>
+
+  <main class="site__content">
+    <div class="container">
+      <article class="post-content" itemprop="articleBody">
+
+        {{ content }}
+
+      </article>
+      <div class="post-content controls__inner">
+        <div class="controls__item prev">
+          {% if page.previous.url %}
+
+          <span>Previous</span>
+          <a href="{{page.previous.url | relative_url }}">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11">
+                    <path fill="fillColor" d="M5.647 1.718c.37-.434.323-1.09-.106-1.465A1.016 1.016 0 0 0 4.095.36L.25 4.875a1.05 1.05 0 0 0 .017 1.378l3.95 4.407c.38.424 1.03.456 1.448.07a1.05 1.05 0 0 0 .07-1.468l-3.34-3.725 3.253-3.819z"/>
+                  </svg>
+              </span>
+            {{page.previous.title | strip_html | truncate: 30}}
+          </a>
+          {% endif %}
+        </div>
+
+        <div class="controls__item next">
+          {% if page.next.url %}
+          <span>Next</span>
+          <a href="{{page.next.url | relative_url }}">
+            {{page.next.title | strip_html | truncate: 30}}
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11">
+                  <path fill="#fillColor" d="M.353 9.282c-.37.434-.323 1.09.106 1.465a1.016 1.016 0 0 0 1.446-.107L5.75 6.125a1.05 1.05 0 0 0-.017-1.378L1.784.34A1.015 1.015 0 0 0 .336.27a1.05 1.05 0 0 0-.07 1.468l3.34 3.725L.353 9.282z"/>
+                </svg>
+              </span>
+          </a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer ==================================================================== -->
+  {% include footer.html %}
+</div><!-- /End Main Wrapper -->
+
+<!-- Scripts ==================================================================== -->
+{% include scripts.html %}
+
+</body>
+</html>

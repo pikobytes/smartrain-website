@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]>
+<html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+
+<head>
+    {% include head.html %}
+</head>
+
+<body data-spy="scroll" data-target=".header-menu-container" data-offset="61">
+
+
+<!-- UP Button ======================================================================== -->
+<div id="up-button"><a href="#" title="To Top"><i class="fa fa-angle-up"></i></a></div>
+
+
+<!-- Main Wrapper ======================================================================== -->
+{% include loader.html %}
+
+<div id="main-wrapper">
+
+    <!-- Navigation ==================================================================== -->
+    {% include navigation.html %}
+
+    <!-- Content ==================================================================== -->
+    {{ content }}
+
+    <!-- Footer ==================================================================== -->
+    {% include footer.html %}
+</div><!-- /End Main Wrapper -->
+
+<!-- Scripts ==================================================================== -->
+{% include scripts.html %}
+
+</body>
+</html>
+
