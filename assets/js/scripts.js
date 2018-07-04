@@ -544,23 +544,11 @@ jQuery(document).ready(function () {
     ------------------------------------------------------------------------- */
     if (headerScroll === 'fixed') {
         if (jQuery('.header-menu-container').length) {
-            jQuery.getScript('./assets/js/plugins/waypoint/jquery.waypoints.min.js', function () {
-                jQuery.getScript('./assets/js/plugins/waypoint/sticky.min.js', function () {
-                    jQuery.getScript('./assets/js/plugins/scrollTo/jquery.scrollTo.min.js', function () {
-                        fixedHeaderfn();
-                    });
-                });
-            });
+          fixedHeaderfn();
         }
     } else if (headerScroll === 'autoHide') {
         if (jQuery('.header-menu-container').length) {
-            jQuery.getScript('./assets/js/plugins/waypoint/jquery.waypoints.min.js', function () {
-                jQuery.getScript('./assets/js/plugins/waypoint/sticky.min.js', function () {
-                    jQuery.getScript('./assets/js/plugins/scrollTo/jquery.scrollTo.min.js', function () {
-                        autoHideHeaderfn();
-                    });
-                });
-            });
+          autoHideHeaderfn();
         }
     }
 
@@ -1703,9 +1691,7 @@ jQuery(document).ready(function () {
     /* Condition
     ------------------------------------------------------------------------- */
     if (jQuery('.progress-block').length) {
-        jQuery.getScript('./assets/js/plugins/waypoint/jquery.waypoints.min.js', function () {
-            gfortProgressfn();
-        });
+      gfortProgressfn();
     }
 
 
@@ -2533,17 +2519,7 @@ jQuery(document).ready(function () {
     /* Condition
     ------------------------------------------------------------------------- */
     if (blocksAtSameHeight === true) {
-        jQuery.getScript('./assets/js/plugins/matchHeight/jquery.matchHeight.min.js', function () {
-            gfortMatchHeightfn();
-        });
-    }
-
-
-    /* =========================================================================
-    Smooth Scroll
-    ========================================================================= */
-    if (pageSmoothScroll === true) {
-        jQuery.getScript('./assets/js/plugins/smoothscroll/smoothscroll.min.js');
+      gfortMatchHeightfn();
     }
 
 
