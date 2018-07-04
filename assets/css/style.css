@@ -12784,7 +12784,7 @@ ol.breadcrumb > li.active { color: #515151; }
 
 /* Text based what we do section
 ----------------------------------------------------------------------------- */
-#whatwedo .circle-icon-block {
+#project .circle-icon-block {
     background: transparent;
     box-shadow: none;
     color: #22aaee;
@@ -12810,13 +12810,4 @@ ol.breadcrumb > li.active { color: #515151; }
     position: relative;
     width: 100%;
     padding: 5px;
-}
-
-/* Smart rain specific styles */
-.team-block-container .image-block img {
-    border: none;
-    border-radius: unset;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
 }

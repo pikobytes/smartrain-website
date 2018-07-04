@@ -1,0 +1,22 @@
+/* Smart rain specific styles */
+.team-block-container .image-block img {
+    border: none;
+    border-radius: unset;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+@media (max-width: 500px){
+    .navbar-brand {
+        width: 150px;
+    }
+
+    .hero {
+        margin-top: 90px;
+    }
+
+    .impressum h1, .impressum h2 {
+        word-break: break-word;
+    }
+}
