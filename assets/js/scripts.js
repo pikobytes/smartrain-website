@@ -386,7 +386,7 @@ jQuery(document).ready(function () {
     /* Condition
     ------------------------------------------------------------------------- */
     if (jQuery('.notification-block').length) {
-        jQuery.getScript('/assets/js/plugins/cookie/js.cookie.min.js', function () {
+        jQuery.getScript('./assets/js/plugins/cookie/js.cookie.min.js', function () {
             gfortNotificationsfn();
         });
     }
@@ -416,7 +416,7 @@ jQuery(document).ready(function () {
     /* Smooth Scroll
     ------------------------------------------------------------------------- */
     if (jQuery('[data-scroll]').length) {
-        jQuery.getScript('/assets/js/plugins/scrollTo/jquery.scrollTo.min.js');
+        jQuery.getScript('./assets/js/plugins/scrollTo/jquery.scrollTo.min.js');
     }
 
     /* Fixed / Auto hide header smooth scroll function
@@ -544,9 +544,9 @@ jQuery(document).ready(function () {
     ------------------------------------------------------------------------- */
     if (headerScroll === 'fixed') {
         if (jQuery('.header-menu-container').length) {
-            jQuery.getScript('/assets/js/plugins/waypoint/jquery.waypoints.min.js', function () {
-                jQuery.getScript('/assets/js/plugins/waypoint/sticky.min.js', function () {
-                    jQuery.getScript('/assets/js/plugins/scrollTo/jquery.scrollTo.min.js', function () {
+            jQuery.getScript('./assets/js/plugins/waypoint/jquery.waypoints.min.js', function () {
+                jQuery.getScript('./assets/js/plugins/waypoint/sticky.min.js', function () {
+                    jQuery.getScript('./assets/js/plugins/scrollTo/jquery.scrollTo.min.js', function () {
                         fixedHeaderfn();
                     });
                 });
@@ -554,9 +554,9 @@ jQuery(document).ready(function () {
         }
     } else if (headerScroll === 'autoHide') {
         if (jQuery('.header-menu-container').length) {
-            jQuery.getScript('/assets/js/plugins/waypoint/jquery.waypoints.min.js', function () {
-                jQuery.getScript('/assets/js/plugins/waypoint/sticky.min.js', function () {
-                    jQuery.getScript('/assets/js/plugins/scrollTo/jquery.scrollTo.min.js', function () {
+            jQuery.getScript('./assets/js/plugins/waypoint/jquery.waypoints.min.js', function () {
+                jQuery.getScript('./assets/js/plugins/waypoint/sticky.min.js', function () {
+                    jQuery.getScript('./assets/js/plugins/scrollTo/jquery.scrollTo.min.js', function () {
                         autoHideHeaderfn();
                     });
                 });
@@ -861,7 +861,7 @@ jQuery(document).ready(function () {
     /* Condition
     ------------------------------------------------------------------------- */
     if (jQuery('.gfort-swiper-slider').length) {
-        jQuery.getScript('/assets/js/plugins/swiper/js/swiper.min.js', function () {
+        jQuery.getScript('./assets/js/plugins/swiper/js/swiper.min.js', function () {
             swiperSliderfn();
             swiperSliderHeightfn();
             swipToSlidefn();
@@ -938,7 +938,7 @@ jQuery(document).ready(function () {
     /* Condition
     ------------------------------------------------------------------------- */
     if (jQuery('.subscribe-form-block').length) {
-        jQuery.getScript('/assets/js/plugins/ajaxchimp/jquery.ajaxchimp.min.js', function () {
+        jQuery.getScript('./assets/js/plugins/ajaxchimp/jquery.ajaxchimp.min.js', function () {
             gfortmailchimpfn();
         });
     }
@@ -1382,7 +1382,7 @@ jQuery(document).ready(function () {
     /* Condition
     ------------------------------------------------------------------------- */
     if (jQuery('select').length) {
-        jQuery.getScript('/assets/js/plugins/gfortSelect/gfortSelect.min.js', function () {
+        jQuery.getScript('./assets/js/plugins/gfortSelect/gfortSelect.min.js', function () {
             gfortSelectfn();
         });
     }
@@ -1501,7 +1501,7 @@ jQuery(document).ready(function () {
     /* Condition
     ------------------------------------------------------------------------- */
     if (jQuery('.video-block').length) {
-        jQuery.getScript('/assets/js/plugins/fitvids/jquery.fitvids.min.js', function () {
+        jQuery.getScript('./assets/js/plugins/fitvids/jquery.fitvids.min.js', function () {
             gfortFitVidfn();
         });
     }
@@ -1535,8 +1535,8 @@ jQuery(document).ready(function () {
     /* Condition
     ------------------------------------------------------------------------- */
     if (jQuery('.fancybox').length) {
-        jQuery.getScript('/assets/js/plugins/fancybox/jquery.fancybox.pack.js', function () {
-            jQuery.getScript('/assets/js/plugins/fancybox/helpers/jquery.fancybox-media.min.js', function () {
+        jQuery.getScript('./assets/js/plugins/fancybox/jquery.fancybox.pack.js', function () {
+            jQuery.getScript('./assets/js/plugins/fancybox/helpers/jquery.fancybox-media.min.js', function () {
                 gfortFancyBoxfn();
             });
         });
@@ -1703,7 +1703,7 @@ jQuery(document).ready(function () {
     /* Condition
     ------------------------------------------------------------------------- */
     if (jQuery('.progress-block').length) {
-        jQuery.getScript('/assets/js/plugins/waypoint/jquery.waypoints.min.js', function () {
+        jQuery.getScript('./assets/js/plugins/waypoint/jquery.waypoints.min.js', function () {
             gfortProgressfn();
         });
     }
@@ -1735,7 +1735,7 @@ jQuery(document).ready(function () {
     /* Condition
     ------------------------------------------------------------------------- */
     if (jQuery('audio').length) {
-        jQuery.getScript('/assets/js/plugins/mediaelement/js/mediaelement-and-player.min.js', function () {
+        jQuery.getScript('./assets/js/plugins/mediaelement/js/mediaelement-and-player.min.js', function () {
             gfortAudiofn();
         });
     }
@@ -1767,7 +1767,7 @@ jQuery(document).ready(function () {
     /* Condition
     ------------------------------------------------------------------------- */
     if (jQuery('.timer-block').length) {
-        jQuery.getScript('/assets/js/plugins/downCount/jquery.downCount.min.js', function () {
+        jQuery.getScript('./assets/js/plugins/downCount/jquery.downCount.min.js', function () {
             gfortTimerfn();
         });
     }
@@ -1854,7 +1854,7 @@ jQuery(document).ready(function () {
                         boxClass: 'col-md-12 infoWindow-block',
                         pixelOffset: new google.maps.Size(-100, 0),
                         infoBoxClearance: new google.maps.Size(1, 1),
-                        closeBoxURL: "/assets/js/plugins/infobox/close.png"
+                        closeBoxURL: "./assets/js/plugins/infobox/close.png"
                     };
 
                     infoWindowBox[index] = new InfoBox(infoWindowOptions);
@@ -1916,7 +1916,7 @@ jQuery(document).ready(function () {
     ------------------------------------------------------------------------- */
     if (jQuery('.gmap-block').length) {
         jQuery.getScript('https://maps.googleapis.com/maps/api/js?key=' + googleMapAPIKey, function () {
-            jQuery.getScript('/assets/js/plugins/infobox/infobox_packed.js', function () {
+            jQuery.getScript('./assets/js/plugins/infobox/infobox_packed.js', function () {
                 gfortGMapfn();
             });
         });
@@ -1951,7 +1951,7 @@ jQuery(document).ready(function () {
     /* Condition
     ------------------------------------------------------------------------- */
     if (jQuery('.background-portfolio-grid').length) {
-        jQuery.getScript('/assets/js/plugins/gridrotator/jquery.gridrotator.min.js', function () {
+        jQuery.getScript('./assets/js/plugins/gridrotator/jquery.gridrotator.min.js', function () {
             gfortBackgroundPortfoliofn();
         });
     }
@@ -2253,7 +2253,7 @@ jQuery(document).ready(function () {
     /* Condition
     ------------------------------------------------------------------------- */
     if (jQuery('.filter-items-wrapper').length) {
-        jQuery.getScript('/assets/js/plugins/isotope/isotope.pkgd.min.js', function () {
+        jQuery.getScript('./assets/js/plugins/isotope/isotope.pkgd.min.js', function () {
             gfortIsotopefn();
         });
     }
@@ -2285,8 +2285,8 @@ jQuery(document).ready(function () {
     /* Condition
     ------------------------------------------------------------------------- */
     if (jQuery('.photostack-block').length) {
-        jQuery.getScript('/assets/js/plugins/photostack/classie.min.js', function () {
-            jQuery.getScript('/assets/js/plugins/photostack/photostack.min.js', function () {
+        jQuery.getScript('./assets/js/plugins/photostack/classie.min.js', function () {
+            jQuery.getScript('./assets/js/plugins/photostack/photostack.min.js', function () {
                 gfortPhotoStackfn();
             });
         });
@@ -2360,7 +2360,7 @@ jQuery(document).ready(function () {
     /* Condition
     ------------------------------------------------------------------------- */
     if (jQuery('.instagram-feed-block').length) {
-        jQuery.getScript('/assets/js/plugins/gfortInsta/gfortInsta.min.js', function () {
+        jQuery.getScript('./assets/js/plugins/gfortInsta/gfortInsta.min.js', function () {
             gfortInstafn();
         });
     }
@@ -2390,7 +2390,7 @@ jQuery(document).ready(function () {
     /* Condition
     ------------------------------------------------------------------------- */
     if (jQuery('.flickr-feed-block').length) {
-        jQuery.getScript('/assets/js/plugins/flickr/jflickrfeed.min.js', function () {
+        jQuery.getScript('./assets/js/plugins/flickr/jflickrfeed.min.js', function () {
             gfortFlickrfn();
         });
     }
@@ -2407,7 +2407,7 @@ jQuery(document).ready(function () {
             dateFormat: '%d %b %Y',
             username: 'graphicfort',
             loadingText: 'Loading ...',
-            apiPath: '/assets/js/plugins/tweetie/api/tweet.php',
+            apiPath: './assets/js/plugins/tweetie/api/tweet.php',
             template: '<div class="twitter-avatar"><a href="https://twitter.com/{{user_name}}" title="{{user_name}}" target="_blank">{{avatar}}</a><span><a href="https://twitter.com/{{user_name}}" title="{{user_name}}" target="_blank">@{{user_name}}</a></span></div><div class="twitter-tweet"><p>{{tweet}}</p></div><div class="twitter-date-buttons"><div class="twitter-date"><a href="{{url}}" target="_blank">{{date}}</a></div><div class="twitter-buttons"><a href="https://twitter.com/intent/tweet?in_reply_to={{tweet_id}}" title="Reply" target="_blank"><i class="fa fa-reply"></i><span>Reply</span></a><a href="https://twitter.com/intent/retweet?tweet_id={{tweet_id}}" title="Retweet" target="_blank"><i class="fa fa-retweet"></i><span>Retweet</span></a><a href="https://twitter.com/intent/favorite?tweet_id={{tweet_id}}" title="Favourite" target="_blank"><i class="fa fa-star"></i><span>Favourite</span></a></div></div><div class="twitter-follow"><a href="https://twitter.com/intent/follow?original_referer=&screen_name=graphicfort" target="_blank" class="btn btn-gfort wave-effect"><i class="fa fa-twitter"></i><span>Follow</span></a></div>'
         }, function () {
 
@@ -2468,9 +2468,9 @@ jQuery(document).ready(function () {
     /* Condition
     ------------------------------------------------------------------------- */
     if (jQuery('.twitter-feed-block').length) {
-        jQuery.getScript('/assets/js/plugins/tweetie/tweetie.js', function () {
+        jQuery.getScript('./assets/js/plugins/tweetie/tweetie.js', function () {
             if (jQuery('.twitter-feed-block').hasClass('twitter-slider')) {
-                jQuery.getScript('/assets/js/plugins/swiper/js/swiper.min.js');
+                jQuery.getScript('./assets/js/plugins/swiper/js/swiper.min.js');
             }
             gfortTwitterfn();
         });
@@ -2533,7 +2533,7 @@ jQuery(document).ready(function () {
     /* Condition
     ------------------------------------------------------------------------- */
     if (blocksAtSameHeight === true) {
-        jQuery.getScript('/assets/js/plugins/matchHeight/jquery.matchHeight.min.js', function () {
+        jQuery.getScript('./assets/js/plugins/matchHeight/jquery.matchHeight.min.js', function () {
             gfortMatchHeightfn();
         });
     }
@@ -2543,7 +2543,7 @@ jQuery(document).ready(function () {
     Smooth Scroll
     ========================================================================= */
     if (pageSmoothScroll === true) {
-        jQuery.getScript('/assets/js/plugins/smoothscroll/smoothscroll.min.js');
+        jQuery.getScript('./assets/js/plugins/smoothscroll/smoothscroll.min.js');
     }
 
 
@@ -2664,7 +2664,7 @@ jQuery(window).load(function () {
     Filter
     ========================================================================= */
     if (jQuery('.filter-section').length) {
-        jQuery.getScript('/assets/js/plugins/isotope/isotope.pkgd.min.js', function () {
+        jQuery.getScript('./assets/js/plugins/isotope/isotope.pkgd.min.js', function () {
             jQuery('.filter-section').each(function (index) {
 
                 var filterValue = '',
