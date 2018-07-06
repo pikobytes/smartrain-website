@@ -859,7 +859,7 @@ body.full-width-page #main-wrapper { max-width: 100%; }
     font: 0/0 Arial, Helvetica;
     color: transparent;
     text-shadow: none;
-    background: url(../images/default/smartRainLogo.png) no-repeat center center;
+    background: url(../images/logos/smartRainLogo.png) no-repeat center center;
     background-size: 100% auto;
 }
 
@@ -12750,7 +12750,7 @@ ol.breadcrumb > li.active { color: #515151; }
 #pikobytes .section-container {
     padding-top: 0;
     margin-top: 90px;
-    background: url(../images/uploads/header_pikobytes.jpg) no-repeat center center;
+    background: url(../images/uploads/smart_rain_header.jpg) no-repeat center center;
     background-size: cover;
     height: 360px;
 }
@@ -12769,7 +12769,7 @@ ol.breadcrumb > li.active { color: #515151; }
 }
 
 #pikobytes .title-block-container h2 {
-    color: #fff;
+    color: #FFFFFF;
     font-size: 38px;
     text-transform: uppercase;
     font-weight: 100;
@@ -12779,7 +12779,7 @@ ol.breadcrumb > li.active { color: #515151; }
     flex: 0 0 100%;
     font-size: 14px;
     font-weight: 600;
-    color: #fff;
+    color: #FFFFFF;
 }
 
 /* Text based what we do section

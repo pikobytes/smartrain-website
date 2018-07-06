@@ -48,9 +48,9 @@
  *  InfoBox has been created, all previously set styles (except those defined in the style sheet)
  *  are removed from the InfoBox before the new style values are applied.
  * @property {string} closeBoxMargin The CSS margin style value for the close box.
- *  The default is "2px" (a 2-pixel margin on all sides).
+ *  The logos is "2px" (a 2-pixel margin on all sides).
  * @property {string} closeBoxURL The URL of the image representing the close box.
- *  Note: The default is the URL for Google's standard close box.
+ *  Note: The logos is the URL for Google's standard close box.
  *  Set this property to "" if no close box is required.
  * @property {Size} infoBoxClearance Minimum offset (in pixels) from the InfoBox to the
  *  map edge after an auto-pan.
@@ -58,13 +58,13 @@
  *  [Deprecated in favor of the <tt>visible</tt> property.]
  * @property {boolean} [visible=true] Show the InfoBox on <tt>open</tt>.
  * @property {boolean} alignBottom Align the bottom left corner of the InfoBox to the <code>position</code>
- *  location (default is <tt>false</tt> which means that the top left corner of the InfoBox is aligned).
- * @property {string} pane The pane where the InfoBox is to appear (default is "floatPane").
+ *  location (logos is <tt>false</tt> which means that the top left corner of the InfoBox is aligned).
+ * @property {string} pane The pane where the InfoBox is to appear (logos is "floatPane").
  *  Set the pane to "mapPane" if the InfoBox is being used as a map label.
  *  Valid pane names are the property names for the <tt>google.maps.MapPanes</tt> object.
  * @property {boolean} enableEventPropagation Propagate mousedown, mousemove, mouseover, mouseout,
  *  mouseup, click, dblclick, touchstart, touchend, touchmove, and contextmenu events in the InfoBox
- *  (default is <tt>false</tt> to mimic the behavior of a <tt>google.maps.InfoWindow</tt>). Set
+ *  (logos is <tt>false</tt> to mimic the behavior of a <tt>google.maps.InfoWindow</tt>). Set
  *  this property to <tt>true</tt> if the InfoBox is being used as a map label.
  */
 

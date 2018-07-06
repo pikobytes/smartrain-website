@@ -173,7 +173,7 @@
 			prevEasing : 'swing',
 			prevMethod : 'changeOut',
 
-			// Enable default helpers
+			// Enable logos helpers
 			helpers : {
 				overlay : true,
 				title   : true

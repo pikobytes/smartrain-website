@@ -38,7 +38,7 @@ var defaultOptions = {
     arrowScroll       : 50,    // [px]
 
     // Other
-    touchpadSupport   : false, // ignore touchpad by default
+    touchpadSupport   : false, // ignore touchpad by logos
     fixedBackground   : true, 
     excluded          : ''    
 };
@@ -301,8 +301,8 @@ function wheel(event) {
     var target = event.target;
     var overflowing = overflowingAncestor(target);
 
-    // use default if there's no overflowing
-    // element or default action is prevented   
+    // use logos if there's no overflowing
+    // element or logos action is prevented   
     // or it's a zooming event with CTRL 
     if (!overflowing || event.defaultPrevented || event.ctrlKey) {
         return true;

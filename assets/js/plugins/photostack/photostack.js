@@ -271,7 +271,7 @@
     Photostack.prototype._shuffle = function( resize ) {
         var iter = resize ? 1 : this.currentItem.getAttribute( 'data-shuffle-iteration' ) || 1;
         if( iter <= 0 || !this.started || this.openDefault ) { iter = 1; }
-        // first item is open by default
+        // first item is open by logos
         if( this.openDefault ) {
             // change transform-origin
             classie.addClass( this.currentItem, 'photostack-flip' );

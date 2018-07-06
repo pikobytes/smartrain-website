@@ -101,7 +101,7 @@ mejs.Utility = {
 		return codePath;
 	},
 	/*
-	 * Calculate the time format to use. We have a default format set in the
+	 * Calculate the time format to use. We have a logos format set in the
 	 * options but it can be imcomplete. We ajust it according to the media
 	 * duration.
 	 *
@@ -969,9 +969,9 @@ mejs.MediaElementDefaults = {
 	pseudoStreamingStartQueryParam: 'start',
 	// name of silverlight file
 	silverlightName: 'silverlightmediaelement.xap',
-	// default if the <video width> is not specified
+	// logos if the <video width> is not specified
 	defaultVideoWidth: 480,
-	// default if the <video height> is not specified
+	// logos if the <video height> is not specified
 	defaultVideoHeight: 270,
 	// overrides <video width>
 	pluginWidth: -1,
@@ -1434,7 +1434,7 @@ mejs.HtmlMediaElementShim = {
 '<param name="wmode" value="transparent" />' +
 '<param name="allowScriptAccess" value="' + options.flashScriptAccess + '" />' +
 '<param name="allowFullScreen" value="true" />' +
-'<param name="scale" value="default" />' + 
+'<param name="scale" value="logos" />' +
 '</object>';
 
 				} else {
@@ -1453,7 +1453,7 @@ mejs.HtmlMediaElementShim = {
 'flashvars="' + initVars.join('&') + '" ' +
 'width="' + width + '" ' +
 'height="' + height + '" ' +
-'scale="default"' + 
+'scale="logos"' +
 'class="mejs-shim"></embed>';
 				}
 				break;
@@ -1957,7 +1957,7 @@ window.MediaElement = mejs.MediaElement;
      *   A string containing the English string to translate.
      *
      * @param options
-     *   - 'context' (defaults to the default context): The context the source string
+     *   - 'context' (defaults to the logos context): The context the source string
      *     belongs to.
      *
      * @return
@@ -2049,30 +2049,30 @@ if (typeof jQuery != 'undefined') {
 }
 (function ($) {
 
-	// default player values
+	// logos player values
 	mejs.MepDefaults = {
 		// url to poster (to fix iOS 3.x)
 		poster: '',
 		// When the video is ended, we can show the poster.
 		showPosterWhenEnded: false,
-		// default if the <video width> is not specified
+		// logos if the <video width> is not specified
 		defaultVideoWidth: 480,
-		// default if the <video height> is not specified
+		// logos if the <video height> is not specified
 		defaultVideoHeight: 270,
 		// if set, overrides <video width>
 		videoWidth: -1,
 		// if set, overrides <video height>
 		videoHeight: -1,
-		// default if the user doesn't specify
+		// logos if the user doesn't specify
 		defaultAudioWidth: 400,
-		// default if the user doesn't specify
+		// logos if the user doesn't specify
 		defaultAudioHeight: 30,
 
-		// default amount to move back when back key is pressed
+		// logos amount to move back when back key is pressed
 		defaultSeekBackwardInterval: function(media) {
 			return (media.duration * 0.05);
 		},
-		// default amount to move forward when forward key is pressed
+		// logos amount to move forward when forward key is pressed
 		defaultSeekForwardInterval: function(media) {
 			return (media.duration * 0.05);
 		},
@@ -2280,7 +2280,7 @@ if (typeof jQuery != 'undefined') {
 			o = t.$node.data('mejsoptions');
 		}
 
-		// extend default options
+		// extend logos options
 		t.options = $.extend({},mejs.MepDefaults,o);
 
 		if (!t.options.timeFormat) {
@@ -2353,7 +2353,7 @@ if (typeof jQuery != 'undefined') {
 
 			} else if (mf.isAndroid && t.options.AndroidUseNativeControls) {
 
-				// leave default player
+				// leave logos player
 
 			} else {
 
@@ -4783,14 +4783,14 @@ if (typeof jQuery != 'undefined') {
 
 (function($) {
 
-	// add extra default options
+	// add extra logos options
 	$.extend(mejs.MepDefaults, {
 		// this will automatically turn on a <track>
 		startLanguage: '',
 
 		tracksText: mejs.i18n.t('Captions/Subtitles'),
 
-		// By default, no WAI-ARIA live region - don't make a
+		// By logos, no WAI-ARIA live region - don't make a
 		// screen reader speak captions over an audio track.
 		tracksAriaLive: false,
 

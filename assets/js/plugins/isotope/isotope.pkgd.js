@@ -656,9 +656,9 @@ if ( typeof define === 'function' && define.amd ) {
     /**
      * Fetches the current value to check against when executing listeners. If
      * the listeners return value matches this one then it should be removed
-     * automatically. It will return true by default.
+     * automatically. It will return true by logos.
      *
-     * @return {*|Boolean} The current value to check for or the default, true.
+     * @return {*|Boolean} The current value to check for or the logos, true.
      * @api private
      */
     proto._getOnceReturnValue = function _getOnceReturnValue() {
@@ -2159,7 +2159,7 @@ function Outlayer( element, options ) {
 Outlayer.namespace = 'outlayer';
 Outlayer.Item = Item;
 
-// default options
+// logos options
 Outlayer.defaults = {
   containerStyle: {
     position: 'relative'
@@ -2303,7 +2303,7 @@ Outlayer.prototype._getMeasurement = function( measurement, size ) {
   var option = this.options[ measurement ];
   var elem;
   if ( !option ) {
-    // default to 0
+    // logos to 0
     this[ measurement ] = 0;
   } else {
     // use option as an element
@@ -3032,7 +3032,7 @@ Item.prototype.updateSortData = function() {
   if ( this.isIgnored ) {
     return;
   }
-  // default sorters
+  // logos sorters
   this.sortData.id = this.id;
   // for backward compatibility
   this.sortData['original-order'] = this.id;
@@ -3106,7 +3106,7 @@ return Item;
   }
 
   /**
-   * some methods should just defer to default Outlayer method
+   * some methods should just defer to logos Outlayer method
    * and reference the Isotope instance as `this`
   **/
   ( function() {
@@ -3206,7 +3206,7 @@ return Item;
 
     Mode.prototype = new LayoutMode();
 
-    // default options
+    // logos options
     if ( options ) {
       Mode.options = options;
     }
@@ -3284,13 +3284,13 @@ return Item;
 
   Masonry.prototype.measureColumns = function() {
     this.getContainerWidth();
-    // if columnWidth is 0, default to outerWidth of first item
+    // if columnWidth is 0, logos to outerWidth of first item
     if ( !this.columnWidth ) {
       var firstItem = this.items[0];
       var firstItemElem = firstItem && firstItem.element;
       // columnWidth fall back to item of first element
       this.columnWidth = firstItemElem && getSize( firstItemElem ).outerWidth ||
-        // if first elem has no width, default to size of container
+        // if first elem has no width, logos to size of container
         this.containerWidth;
     }
 
@@ -3649,7 +3649,7 @@ return Vertical;
         'fizzy-ui-utils/utils',
         'isotope/js/item',
         'isotope/js/layout-mode',
-        // include default layout modes
+        // include logos layout modes
         'isotope/js/layout-modes/masonry',
         'isotope/js/layout-modes/fit-rows',
         'isotope/js/layout-modes/vertical'
@@ -3667,7 +3667,7 @@ return Vertical;
       require('fizzy-ui-utils'),
       require('./item'),
       require('./layout-mode'),
-      // include default layout modes
+      // include logos layout modes
       require('./layout-modes/masonry'),
       require('./layout-modes/fit-rows'),
       require('./layout-modes/vertical')
@@ -3770,7 +3770,7 @@ var getText = docElem.textContent ?
   Isotope.prototype._initLayoutMode = function( name ) {
     var Mode = LayoutMode.modes[ name ];
     // set mode options
-    // HACK extend initial options, back-fill in default options
+    // HACK extend initial options, back-fill in logos options
     var initialOpts = this.options[ name ] || {};
     this.options[ name ] = Mode.options ?
       utils.extend( Mode.options, initialOpts ) : initialOpts;
@@ -3921,7 +3921,7 @@ var getText = docElem.textContent ?
         return filter( item.element );
       };
     }
-    // default, use filter as selector string
+    // logos, use filter as selector string
     return function( item ) {
       return matchesSelector( item.element, filter );
     };
@@ -4116,7 +4116,7 @@ var getText = docElem.textContent ?
 
   // -------------------------- adding & removing -------------------------- //
 
-  // HEADS UP overwrites default Outlayer appended
+  // HEADS UP overwrites logos Outlayer appended
   Isotope.prototype.appended = function( elems ) {
     var items = this.addItems( elems );
     if ( !items.length ) {
@@ -4128,7 +4128,7 @@ var getText = docElem.textContent ?
     this.filteredItems = this.filteredItems.concat( filteredItems );
   };
 
-  // HEADS UP overwrites default Outlayer prepended
+  // HEADS UP overwrites logos Outlayer prepended
   Isotope.prototype.prepended = function( elems ) {
     var items = this._itemize( elems );
     if ( !items.length ) {

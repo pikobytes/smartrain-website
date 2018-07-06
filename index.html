@@ -8,25 +8,35 @@ layout: default
     <!-- Section Container -->
     <div class="section-container">
 
-
         <!-- container -->
         <div class="container">
             <!-- row -->
             <div class="row">
 
-
-                <!-- Title Block -->
-                <div class="col-lg-10 col-lg-offset-1 col-md-12 title-block">
-                    <!-- Title Block Container -->
-                    <div class="title-block-container text-center">
+                <div class="col-md-12 post-block">
+                    <!-- Post Block Container -->
+                    <div class="post-block-container">
 
                         <!-- Title -->
                         <h2>Projekt</h2>
 
+                        <!-- Line Separator -->
+                        <div class="line-separator"></div>
+
                         <!-- Description -->
-                        <p style="text-align: justify;">Aufbau eines Monitoring-Netzwerks für lokale Niederschlagsmessungen in der Landeshauptstadt DresdenAufbau eines Monitoring-Netzwerks für lokale Niederschlagsmessungen in der Landeshauptstadt DresdenAufbau eines Monitoring-Netzwerks für lokale Niederschlagsmessungen in der Landeshauptstadt Dresden.<br></p>
-                        <p style="...">Das durch die Landeshauptstadt Dresden geförderte Projekt widmet sich dem Aufbau und Betrieb eines hochverdichteten Niederschlagsmessnetzes für urbane Räume. Das Ziel des Messnetzes ist es, Informationen über lokale Starkregenereignisse und stadtklimatische Besonderheiten zu erfassen. Diese Informationen stehen dann unterschiedlichen Akteuren der Stadt- und Infrastrukturplanung zur Verfügung. Das Messnetz ist als bürgerschaftliches Messnetz geplant und soll eruieren, welche technischen und organisatorischen Herausforderungen für den Betrieb gemeistert werden müssen. Dazu gehören langfristige Betriebskosten, Wartungs- und Betreuungsaufwände oder die resultierende Datenqualität.<br></p>
-                        <p style="...">Das Projekt wird voraussichtlich im Juli 2018 starten und bis Ende 2019 laufen. Das Projekt wird gemeinschaftlich von der TU Dresden (Professur für Geoinformatik), dem IT-Startup PIKOBYTES und der Elco Industrie Automation GmbH durchgeführt. Die gewonnenen Messwerte und Baupläne werden als OpenData / OpenHardware öffentlich bereitgestellt und können somit auch von interessierten Bürgern, Makern und Crowd-Sourcing-Projekten nachgebaut werden.<br></p>
+                        <p class="padding-top-30" style="text-align: justify;">Aufbau eines
+                            Monitoring-Netzwerks für lokale
+                            Niederschlagsmessungen in der Landeshauptstadt DresdenAufbau eines
+                            Monitoring-Netzwerks für lokale Niederschlagsmessungen in der
+                            Landeshauptstadt DresdenAufbau eines Monitoring-Netzwerks für lokale
+                            Niederschlagsmessungen in der Landeshauptstadt Dresden.</p>
+                        <p style="text-align: justify;">Das Projekt wird voraussichtlich im Juli
+                            2018 starten und bis Ende 2019 laufen. Das Projekt wird gemeinschaftlich
+                            von der TU Dresden (Professur für Geoinformatik), dem IT-Startup
+                            PIKOBYTES und der Elco Industrie Automation GmbH durchgeführt. Die
+                            gewonnenen Messwerte und Baupläne werden als OpenData / OpenHardware
+                            öffentlich bereitgestellt und können somit auch von interessierten
+                            Bürgern, Makern und Crowd-Sourcing-Projekten nachgebaut werden.</p>
 
                     </div><!-- /End Title Block Container -->
                 </div><!-- /End Title Block -->
@@ -50,28 +60,58 @@ layout: default
             <div class="row">
 
 
-                <!-- Title Block -->
-                <div class="col-lg-10 col-lg-offset-1 col-md-12 title-block">
-                    <!-- Title Block Container -->
-                    <div class="title-block-container text-center">
-
-                        <!-- Title -->
-                        <h2>UNSER TEAM</h2>
+                <!-- Team Picture Block -->
+                <div class="col-md-12 post-block">
+                    <!-- Post Block Container -->
+                    <div class="post-block-container">
 
 
-                        <!-- Line Separator -->
-                        <div class="line-separator"></div>
-                        <br>
+                        <!-- Title Block -->
+                        <div class="col-md-12 title-block">
+                            <!-- Title Block Container -->
+                            <div class="title-block-container">
 
-                        <div class="image-block-container">
-                            <img src="{{ '/assets/images/smart_rain_team.jpg' | prepend: site.baseurl }}"
-                                 alt="Team"
-                                 style="border-radius: 2px;">
-                        </div><!-- /End Image Block Container -->
+                                <!-- Title -->
+                                <h2>DAS TEAM</h2>
+
+                                <!-- Line Separator -->
+                                <div class="line-separator"></div>
+
+                            </div><!-- /End Title Block Container -->
+                        </div><!-- /End Title Block -->
 
 
-                    </div><!-- /End Title Block Container -->
-                </div><!-- /End Title Block -->
+                        <!-- Post Media -->
+                        <div class="post-media">
+
+                            <!-- Image Block -->
+                            <div class="image-block">
+                                <!-- Image Block Container -->
+                                <div class="image-block-container">
+                                    <img src="{{ '/assets/images/smart_rain_team.jpg' | prepend: site.baseurl }}"
+                                         alt="Team"
+                                         style="border-radius: 2px;">
+                                </div><!-- /End Image Block Container -->
+                            </div><!-- /End Image Block -->
+
+                        </div><!-- /End Post Media -->
+
+
+                        <!-- Post Footer -->
+                        <div class="post-footer">
+
+                            <p style="text-align: justify;">
+                                Unser Team (von links nach rechts): Alexander Fickel (Pikobytes),
+                                Matthias Müller (Pikobytes), Jacob Mendt (Pikobytes), Stefan Hennig
+                                (Elco Industrie Automation), Pierre Karrasch (TU Dresden), Robert
+                                Krüger (TU Dresden)
+                            </p>
+
+                        </div><!-- /End Post Footer -->
+
+
+                    </div><!-- /End Post Block Container -->
+                </div><!-- /End Post Block -->
 
 
                 <!-- Team Block -->
@@ -83,15 +123,18 @@ layout: default
                         <div class="image-block">
                             <!-- Image Block Container -->
                             <div class="image-block-container">
-                                <img src="{{ '/assets/images/default/tudLogo.svg' | prepend: site.baseurl }}"
-                                     alt="PIKOBYTES GmbH">
+                                <a href="https://tu-dresden.de/bu/umwelt/geo/geoinformatik"
+                                   target="_blank"><img
+                                        src="{{ '/assets/images/logos/tudLogo.png' | prepend: site.baseurl }}"
+                                        alt="TU Dresden"></a>
                             </div><!-- /End Image Block Container -->
                         </div><!-- /End Image Block -->
 
                         <!-- Title -->
                         <div class="team-block-title">
-                            <h4>Prof. für Geoinformatik - TUD</h4>
-                            <h6 class="main-color">TODO</h6>
+                            <h4 style="font-weight: bold">Prof. für Geoinformatik - TU Dresden</h4>
+                            <p style="text-align: justify; padding-top: 20px; padding-bottom: 20px">
+                                comming soon</p>
                         </div><!-- /End Title -->
 
                         <!-- Social Icons Block -->
@@ -119,15 +162,22 @@ layout: default
                         <div class="image-block">
                             <!-- Image Block Container -->
                             <div class="image-block-container">
-                                <img src="{{ '/assets/images/default/pikobytesLogo.svg' | prepend: site.baseurl }}"
-                                     alt="PIKOBYTES">
+                                <a href="https://www.pikobytes.de/" target="_blank"><img
+                                        src="{{ '/assets/images/logos/pikobytesLogo.png' | prepend: site.baseurl }}"
+                                        alt="PIKOBYTES"></a>
                             </div><!-- /End Image Block Container -->
                         </div><!-- /End Image Block -->
 
                         <!-- Title -->
                         <div class="team-block-title">
-                            <h4>PIKOBYTES</h4>
-                            <h6 class="main-color">TODO</h6>
+                            <h4 style="font-weight: bold">Pikobytes GmbH</h4>
+                            <p style="text-align: justify; padding-top: 20px; padding-bottom: 20px">
+                                Pikobytes entwickelt Softwarelösungen und
+                                Datendienste für ein digitales Abbild unserer Welt. Als IT-Startup
+                                sind wir spezialisiert auf die Entwicklung leistungsfähiger
+                                Cloud-Services für die Integration und Auswertung von Umweltdaten
+                                und unterstützen Unternehmen bei datengetriebenen
+                                Entscheidungen.</p>
                         </div><!-- /End Title -->
 
                         <!-- Social Icons Block -->
@@ -173,15 +223,17 @@ layout: default
                         <div class="image-block">
                             <!-- Image Block Container -->
                             <div class="image-block-container">
-                                <img src="{{ '/assets/images/default/elcoLogo.png' | prepend: site.baseurl }}"
-                                     alt="Elco Industrie Automation">
+                                <a href="https://www.elco-holding.eu/de/" target="_blank"><img
+                                        src="{{ '/assets/images/logos/elcoLogo.png' | prepend: site.baseurl }}"
+                                        alt="Elco Industrie Automation"></a>
                             </div><!-- /End Image Block Container -->
                         </div><!-- /End Image Block -->
 
                         <!-- Title -->
                         <div class="team-block-title">
-                            <h4>Elco Industrie Automation</h4>
-                            <h6 class="main-color">TODO</h6>
+                            <h4 style="font-weight: bold">Elco Industrie Automation GmbH</h4>
+                            <p style="text-align: justify; padding-top: 20px; padding-bottom: 20px">
+                                comming soon</p>
                         </div><!-- /End Title -->
 
                         <!-- Social Icons Block -->
@@ -209,7 +261,29 @@ layout: default
                         </div><!-- /End Social Icons Block -->
 
                     </div><!-- /End Team Block Container -->
+
                 </div><!-- /End Team Block -->
+
+                <div class="clearfix line-separator"></div>
+
+                <div class="content-block">
+
+                    <h4 style="font-weight: bold; padding-top: 20px">Ansprechpartner und
+                        Projektleiter</h4>
+                    <p>Pierre Karrasch (TU Dresden)</p>
+                    <!-- Social Icons Block -->
+                    <div class="social-icons-block social-icons-block-sm social-icons-block-style-2">
+                        <ul>
+                            <li>
+                                <a href="mailto:pierre.karrasch@tu-dresden.de"
+                                   title="E-Mail"><i
+                                        class="fa fa-envelope-o"
+                                        style="color: rgb(255, 255, 255); background-color: rgb(160, 082, 045); font-size: 14px;"></i></a>
+                            </li>
+                        </ul>
+                    </div><!-- /End Social Icons Block -->
+
+                </div>
 
 
             </div><!-- /End row -->
@@ -218,6 +292,7 @@ layout: default
 
     </div><!-- /End Section Container -->
 </div><!-- /End Team 1 -->
+
 
 <!-- Support ==================================================================== -->
 <div id="sponsoring" class="clients-section white-section">
@@ -228,7 +303,7 @@ layout: default
 
         <!-- Logos Foerderpartner -->
         <div class="col-xs-10 col-sm-10 col-md-8 col-lg-6">
-            <img src="{{ '/assets/images/default/dresdenLogo.svg' | prepend: site.baseurl }}"
+            <img src="{{ '/assets/images/logos/dresdenLogo.svg' | prepend: site.baseurl }}"
                  style="max-width: 100%;" alt="Logos Förderpartner">
         </div>
 
