@@ -2674,4 +2674,28 @@ jQuery(window).load(function () {
     })
   }
 
+  function validateRequired(e) {
+    return "" !== e
+  }
+
+  function validateEmail(e) {
+    return "" === e || /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/i.test(e)
+  }
+
+  function addErrorData(e, t) {
+    e.parent().addClass("error");
+    e.after("<span class='error-data'>" + t + "</span>");
+  }
+
+  $(".js-submit").click(function(e) {
+    e.preventDefault();
+    var t = $(".form__input input"),
+      n = $(".form__input textarea"),
+      r = !1;
+    $(".form__input").removeClass("error"), $(".error-data").remove();
+    for (var i = 0; i < t.length; i++) {
+      var o = t[i];
+      $(o).attr("required", !0) && !validateRequired($(o).val()) && (addErrorData($(o), "Das Feld ist verpflichtend"), r = !0), $(o).attr("required", !0) && "email" === $(o).attr("type") && !validateEmail($(o).val()) && (addErrorData($(o), "Email-Addresse nicht invalide"), r = !0), $(n).attr("required", !0) && !validateRequired($(n).val()) && (addErrorData($(n), "Das Feld ist verpflichtend"), r = !0)
+    }!1 === r && $("#contactForm").submit()
+  })
 });

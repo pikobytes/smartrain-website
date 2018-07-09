@@ -1,7 +1,7 @@
 <a class="post-card" href="{{ post.url | relative_url }}" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
   {% if post.featured-img %}
   <figure class="post-card__thumb">
-    <img src="{{site.baseurl}}/assets/images/posts/{{post.featured-img}}_thumb.jpg" alt="{{ post.title }}">
+    <img src="{{site.baseurl}}/assets/images/posts/{{post.featured-img}}.jpg" alt="{{ post.title }}">
   </figure>
   {% else %}
   <figure class="post-card__thumb">
@@ -14,6 +14,7 @@
       {% assign date_format = site.sleek.date_format | default: "%b %-d, %Y" %}
       <span class="post-card__meta">
         <time>{{ post.date | date: date_format }}</time>
+        <span> - {{ post.author }}</span>
       </span>
     </div>
     {% if post.summary %}

@@ -3,7 +3,7 @@ layout: default
 ---
 {% include banner.html %}
 
-<!-- What we do ==================================================================== -->
+<!-- Project ==================================================================== -->
 <div id="project" class="content-section white-section" style="outline-offset: -3px;">
     <!-- Section Container -->
     <div class="section-container">
@@ -25,18 +25,10 @@ layout: default
 
                         <!-- Description -->
                         <p class="padding-top-30" style="text-align: justify;">
-                            SmartRain baut in der sächsischen Landeshauptstadt Dresden ein Monitoring-Netzwerks für lokale
-                            Niederschlagsmessungen auf. Die gewonnenen Daten stehen Wissenschaftlern, Stadtplanern sowie der
-                            breiten öffentlichkeit zur Verfügung. Sie sollen helfen, stadtklimatische Besonderheiten
-                            aufzudecken, Besonderheiten in der lokalen Niederschlagsverteilungen zu erkennen und
-                            Starkregenereignisse besser zu verstehen.
+                            Das durch die Landeshauptstadt Dresden geförderte Projekt widmet sich dem Aufbau und Betrieb eines hochverdichteten Niederschlagsmessnetzes in Dresden. Das Ziel des Messnetzes ist es, Informationen über lokale Starkregenereignisse und stadtklimatische Besonderheiten zu erfassen. Diese Informationen stehen dann den Bürgern und unterschiedlichen Akteuren der Stadt- und Infrastrukturplanung zur Verfügung. Das Messnetz ist als bürgerschaftliches Messnetz geplant und soll eruieren, welche technischen und organisatorischen Herausforderungen für den Betrieb gemeistert werden müssen. Dazu gehören langfristige Betriebskosten, Wartungs- und Betreuungsaufwände oder die resultierende Datenqualität.
                         </p>
                         <p style="text-align: justify;">
-                            Das Projekt startet im Juli 2018 und läuft bis Ende 2019. Es wird gemeinschaftlich von der TU Dresden
-                            (Professur für Geoinformatik), dem IT-Startup PIKOBYTES und der Elco Industrie Automation GmbH durchgeführt.
-                            Die gewonnenen Messwerte und Baupläne werden als OpenData und OpenHardware öffentlich bereitgestellt und können
-                            somit auch von interessierten Bürgern, Makern und anderen Crowd-Sourcing-Projekten nachgebaut werden. Dazu werden
-                            in SmartRain auch kostengünstige und einergiesparende Technologien zur Datenübertragung erprobt.
+                            Das Projekt ist im Juli 2018 gestartet und läuft bis Ende 2019. Das Projekt wird gemeinschaftlich von der TU Dresden (Professur für Geoinformatik), dem IT-Startup PIKOBYTES und der Elco Industrie Automation GmbH durchgeführt. Die gewonnenen Messwerte und Baupläne werden als OpenData / OpenHardware öffentlich bereitgestellt und können somit auch von interessierten Bürgern, Makern und Crowd-Sourcing-Projekten nachgebaut werden.
                         </p>
 
                     </div><!-- /End Title Block Container -->
@@ -49,8 +41,55 @@ layout: default
     </div><!-- /End Section Container -->
 </div><!-- /End Content 1 -->
 
+<!-- Participate ==================================================================== -->
+<div id="project" class="content-section grey-section" style="outline-offset: -3px;">
+    <!-- Section Container -->
+    <div class="section-container">
+
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+
+                <div class="col-md-12 post-block">
+                    <!-- Post Block Container -->
+                    <div class="post-block-container">
+
+                        <!-- Title -->
+                        <h2>Mitmachen</h2>
+
+                        <!-- Line Separator -->
+                        <div class="line-separator"></div>
+
+                        <!-- Description -->
+                        <p class="padding-top-30" style="text-align: justify;">
+                            Muss ich heute nochmal in den Garten um die Tomaten zu gießen? Lohnt es sich gerade zum „Mocki“ zu fahren? Hat es bei mir in diesem Jahr weniger geregnet als im Letzten? Sollte ich lieber in einen anderen Stadtteil ziehen, weil das Wetter dort besser ist? Um solche und andere Fragen zu beantworten wollen wir messen. Temperatur-, Luftfeuchtigkeits-, Luftdruck- und vor allem Niederschlagsinformationen können uns und Ihnen helfen diese Fragen zu beantworten. Ein bürgerschaftliches Messnetz ist aber nur möglich, wenn sich die Dresdener Bürgerschaft auch daran beteiligt. Aus diesem Grund sind wir auf der Suche nach Standorten für unsere Messstationen.  Haben Sie einen Garten, eine Dachterasse oder sehen eine andere Möglichkeit eine kleine Messstation bei Ihnen aufzubauen? Sie sind LehrerIn und wollen das Thema Wetter in anschaulich im Unterricht behandeln?
+                        </p>
+                        <p style="text-align: justify;">
+                            Unsere Messstationen benötigen keinen Stromanschluss und sollen voraussichtlich ein Jahr selbständig arbeiten und verursachen keine Kosten für Sie. Haben Sie Lust Teil des Dresdner Projektes SmartRain zu werden, dann nutzen Sie das folgende Formular und nehmen Sie Kontakt mit uns auf:
+                        </p>
+
+                        {% include form.html %}
+
+                        <br>
+                        <p style="text-align: -webkit-left;text-align: left;padding-top: 30px;">
+                            Alternativ können Sie uns auch eine Nachricht über folgende E-Mail Adresse zukommen lassen: <a href="mailto:{{site.email}}" title="Contact Email">{{site.email}}</a>
+                        </p>
+                        <p style="text-align: justify;">
+                            Wir melden uns zeitnah um mit Ihnen abzusprechen ob und wie wir den Aufbau einer Station mit Ihnen organisieren können. Wir freuen uns auf eine Zusammenarbeit.
+                        </p>
+                    </div><!-- /End Title Block Container -->
+                </div><!-- /End Title Block -->
+
+            </div><!-- /End row -->
+        </div><!-- /End container -->
+
+
+    </div><!-- /End Section Container -->
+</div><!-- /End Content 1 -->
+
 <!-- Team =================================================================== -->
-<div id="team" class="team-section grey-section">
+<div id="team" class="team-section white-section">
     <!-- Section Container -->
     <div class="section-container">
 
@@ -135,7 +174,8 @@ layout: default
                         <div class="team-block-title">
                             <h4 style="font-weight: bold">Prof. für Geoinformatik - TU Dresden</h4>
                             <p style="text-align: justify; padding-top: 20px; padding-bottom: 20px">
-                                comming soon</p>
+                                Die im Fachbereich Geowissenschaften der TU Dresden als Querschnittsprofessur eingerichtete Professur für Geoinformatik widmet sich mit einem interdisziplinären Team in Forschung und Lehre speziellen Themen der Geoinformatik (Geoinformation Science).
+                            </p>
                         </div><!-- /End Title -->
 
                         <!-- Social Icons Block -->
@@ -146,6 +186,12 @@ layout: default
                                        title="E-Mail"><i
                                             class="fa fa-envelope-o"
                                             style="color: rgb(255, 255, 255); background-color: rgb(160, 082, 045); font-size: 14px;"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.xing.com/profile/Pierre_Karrasch/cv"
+                                       target="_blank" title="Xing"><i
+                                            class="fa fa-xing"
+                                            style="color: rgb(81, 81, 81); background-color: rgb(255, 255, 255); font-size: 14px;"></i></a>
                                 </li>
                             </ul>
                         </div><!-- /End Social Icons Block -->
@@ -234,7 +280,8 @@ layout: default
                         <div class="team-block-title">
                             <h4 style="font-weight: bold">Elco Industrie Automation GmbH</h4>
                             <p style="text-align: justify; padding-top: 20px; padding-bottom: 20px">
-                                comming soon</p>
+                                Die ELCO Industrie Automation GmbH ist ein Anbieter für Ihr Lösungskonzept. Ein durchgängiges System von Sensorik, Drehgebern, passiven- und aktiven Feldverteilern, Steckverbindern, HMI-Geräten, Relais, IoT-Produkten und Softwarelösungen auf dem mobilen Endgerät.
+                            </p>
                         </div><!-- /End Title -->
 
                         <!-- Social Icons Block -->
@@ -312,3 +359,6 @@ layout: default
 
     </div><!-- /End Section Container -->
 </div><!-- /End Clients 3 -->
+
+<!-- just testing -->
+<input type="hidden" name="_nexxxt" value="{{ '/thanks.html' | prepend: site.url }}" />
