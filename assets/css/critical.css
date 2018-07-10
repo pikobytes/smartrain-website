@@ -728,13 +728,9 @@ table th,table td{
     background-color:#dde5ea;
     background-repeat:no-repeat;
     background-position:50%;
-    background-size:cover
-}
-@media (min-width:62em){
-    .hero{
-        margin:0 auto;
-        height:36em
-    }
+    background-size:cover;
+    margin:0 auto;
+    height:36em
 }
 .hero::before{
     position:absolute;
