@@ -13,6 +13,3 @@ Im Rahmen des an der TU Dresden stattfindenden Seminars „Urbane Geosensornetzw
 *Foto: Jakob Walenta*
 
 Dort sollen die Stationen bis zum Beginn des kommenden Wintersemesters im Oktober erste Messungen durchführen. Die Tests dienen einerseits der Kalibrierung der Niederschlagskippwagen andererseits sollen  Erfahrungen im Umgang mit der verwendeten Technik gesammelt werden, die dann die Grundlage für den Aufbau des Dresdner Messnetzes bilden.
-
-[//]: # ![Testmessungen im Tharandter Wald]({{ '/assets/images/TharandtW_002_image.jpg' | prepend: site.baseurl }} "Testmessungen im Tharandter Wald")
-*Foto: Vreni Preußler*
