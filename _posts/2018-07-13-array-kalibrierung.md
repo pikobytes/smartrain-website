@@ -5,8 +5,6 @@ featured-img: array
 author: Pierre Karrasch
 ---
 
-## Kalibriermessungen gestartet
-
 Die im Rahmen des Projektes SmartRain verwendeten Kippwaagen werden auf dem Messfeld des Instituts für Meteorologie der TU Dresden unterschiedlichen Kalibrierungen unterzogen. Hierzu konnte ein aus 20 Kippwaagen (4x5) bestehendes Messsystem installiert werden.
 
 ![Array aus 20 Kippwaagen]({{ '/assets/images/array_004_thumb.JPG' | prepend: site.baseurl }} "Array aus 20 Kippwaagen")
