@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Erste Testmessungen im Tharandter Wald
-featured-img: smart_rain_header
+featured-img: TharandtW_001
 author: Pierre Karrasch
 ---
 
