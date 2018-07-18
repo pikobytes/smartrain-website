@@ -10,6 +10,7 @@ author: Pierre Karrasch
 Die im Rahmen des Projektes SmartRain verwendeten Kippwaagen werden auf dem Messfeld des Instituts für Meteorologie der TU Dresden unterschiedlichen Kalibrierungen unterzogen. Hierzu konnte ein aus 20 Kippwaagen (4x5) bestehendes Messsystem installiert werden.
 
 ![Array aus 20 Kippwaagen]({{ '/assets/images/array_004_thumb.jpg' | prepend: site.baseurl }} "Array aus 20 Kippwaagen")
+![Team-Bild]({{ '/assets/images/smart_rain_team.jpg' | prepend: site.baseurl }} "Team-Bild")
 
 Die Messungen sollen Aufschluss darüber geben, wie stabil die durch den Hersteller vorgenommene Kalibrierung ist. Gleichzeitig sollen aus den Messungen auch Informationen über die absolute Genauigkeit abgeleitet werden. Dafür stehen Referenzmessungen weiterer meteorologischer Messgeräte in Tharandt zur Verfügung. 
 
