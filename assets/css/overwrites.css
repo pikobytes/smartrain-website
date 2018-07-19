@@ -16,7 +16,7 @@
         margin-top: 90px;
     }
 
-    .impressum h1, .impressum h2 {
+    .impressum h1, .impressum h2, .hero__title {
         word-break: break-word;
     }
 }
