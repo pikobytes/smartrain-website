@@ -4,7 +4,7 @@ layout: default
 {% include banner.html %}
 
 <!-- Project ==================================================================== -->
-<div id="project" class="content-section white-section" style="outline-offset: -3px;">
+<div id="project" class="content-section grey-section" style="outline-offset: -3px;">
     <!-- Section Container -->
     <div class="section-container">
 
@@ -42,7 +42,7 @@ layout: default
 </div><!-- /End Content 1 -->
 
 <!-- Participate ==================================================================== -->
-<div id="mitmachen" class="content-section grey-section" style="outline-offset: -3px;">
+<div id="mitmachen" class="content-section white-section" style="outline-offset: -3px;">
     <!-- Section Container -->
     <div class="section-container">
 
@@ -77,6 +77,43 @@ layout: default
                         <p style="text-align: justify;">
                             Wir melden uns zeitnah um mit Ihnen abzusprechen ob und wie wir den Aufbau einer Station mit Ihnen organisieren können. Wir freuen uns auf eine Zusammenarbeit.
                         </p>
+                    </div><!-- /End Title Block Container -->
+                </div><!-- /End Title Block -->
+
+            </div><!-- /End row -->
+        </div><!-- /End container -->
+
+
+    </div><!-- /End Section Container -->
+</div><!-- /End Content 1 -->
+
+<!-- Participate ==================================================================== -->
+<div id="news" class="content-section news-section grey-section" style="outline-offset: -3px;">
+    <!-- Section Container -->
+    <div class="section-container">
+
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+
+                <div class="col-md-12 post-block">
+                    <!-- Post Block Container -->
+                    <div class="post-block-container">
+
+                        <!-- Title -->
+                        <h2>Neuigkeiten</h2>
+
+                        <!-- Line Separator -->
+                        <div class="line-separator"></div>
+
+                        <!-- Description -->
+                        <div class="post-list padding-top-30" itemscope="" itemtype="http://schema.org/Blog">
+                            {% for post in site.posts limit:3 %}
+                                {% include card.html %}
+                            {% endfor %}
+                        </div>
+
                     </div><!-- /End Title Block Container -->
                 </div><!-- /End Title Block -->
 
