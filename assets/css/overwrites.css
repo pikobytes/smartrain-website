@@ -28,5 +28,10 @@
 @media (max-width: 992px) {
     .image-center-container { text-align: inherit; }
     .image-center-container .post-media { width: 100%; }
-    .image-center-container .post-footer { width: 100%; display: block }
+    .image-center-container .post-footer { width: 100%; display: block; }
+}
+
+.phrase-text-align { text-align: justify; }
+@media (max-width: 767px) {
+    .phrase-text-align { text-align: left; }
 }
