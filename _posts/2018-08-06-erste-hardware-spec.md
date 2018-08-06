@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Hardwarespezifikation, erste Version
+title: Regensensor, erste Version
 featured-img: smart_raindrop
 author: Matthias Müller
 ---
-## Hardwarespezifikation, erste Version
+## Regensensor, erste Version
 
 Die Spezifikation für unsere ersten 10 Mess-Systeme ist fertig:
 
