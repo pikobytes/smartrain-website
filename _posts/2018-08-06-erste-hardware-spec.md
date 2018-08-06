@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hardwarespezifikation, erste Version
-featured-img: smart-raindrop
+featured-img: smart_raindrop
 author: Matthias Müller
 ---
 ## Hardwarespezifikation, erste Version
