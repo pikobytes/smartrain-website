@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Regensensor, erste Version
-featured-img: smart_raindrop
+featured-img: steckbrett
 author: Matthias Müller
 ---
 ## Regensensor, erste Version
