@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SmartRain Workshop
-featured-img: workshop_header
+featured-img: workshop
 author: Pierre Karrasch
 ---
 
