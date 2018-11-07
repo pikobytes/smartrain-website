@@ -134,6 +134,11 @@ pre>code{
 .to-top:hover{
     background-color:rgba(103,103,103,0.8)
 }
+
+/*.post-card-wrapper {*/
+    /*display: inline-flex;*/
+/*}*/
+
 .post-card{
     display:block;
     width:100%;
@@ -155,27 +160,7 @@ pre>code{
     -webkit-box-shadow:0 2px 40px 0 rgba(153,155,168,0.3);
     box-shadow:0 2px 40px 0 rgba(153,155,168,0.3)
 }
-@media (min-width: 48em){
-    .post-card{
-        width:48.4375%;
-        margin-right:3.125%
-    }
-    .post-card:last-of-type,.post-card:nth-child(2n+2){
-        margin-right:0
-    }
-}
-@media (min-width: 75em){
-    .post-card{
-        width:31.25%;
-        margin-right:3.125%
-    }
-    .post-card:nth-child(2n+2){
-        margin-right:3.125%
-    }
-    .post-card:last-of-type,.post-card:nth-child(3n+3){
-        margin-right:0
-    }
-}
+
 .post-card__thumb{
     margin:0;
     background:#fff;
@@ -679,6 +664,9 @@ table th,table td{
     .post-card:nth-child(2n+2){
         margin-right:0
     }
+    .post-card:last-of-type,.post-card:nth-child(2n+2){
+        margin-right:0
+    }
 }
 @media (min-width:75em){
     .post-card{
@@ -687,6 +675,9 @@ table th,table td{
     }
     .post-card:nth-child(2n+2){
         margin-right:3.125%
+    }
+    .post-card:last-of-type,.post-card:nth-child(3n+3){
+        margin-right:0
     }
 }
 .post-card__thumb{
