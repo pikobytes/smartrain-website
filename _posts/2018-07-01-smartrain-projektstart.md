@@ -1,7 +1,8 @@
 ---
 layout: post
 title: SmartRain Projektstart
-featured-img: smart_rain_team
+image_thumb: smart_rain_team_thumb.jpg
+image_banner: smart_rain_team_banner.jpg
 author: Pierre Karrasch
 ---
 

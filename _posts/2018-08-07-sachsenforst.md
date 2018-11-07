@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Kooperation mit Sachsenforst
-featured-img: sachsenforst
+image_banner: sachsenforst_banner.jpg
+image_thumb: sachsenforst_thumb.jpg
 author: Pierre Karrasch
 ---
 ## Kooperation mit Sachsenforst

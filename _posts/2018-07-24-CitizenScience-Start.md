@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Citizen-Science-Kampagne gestartet
-featured-img: smart_rain_Planung_01
+image_banner: smart_rain_Planung_01_banner.jpg
+image_thumb: smart_rain_Planung_01_thumb.jpg
 author: Pierre Karrasch
 ---
 ## Citizen-Science-Kampagne gestartet

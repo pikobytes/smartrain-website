@@ -28,8 +28,8 @@ layout: compress
   {% include navigationFull.html %}
 
   <!-- Content ==================================================================== -->
-  {% if page.featured-img %}
-    <div class="hero lazyload" data-bg="{{site.baseurl}}/assets/images/posts/{{page.featured-img}}_banner.jpg">
+  {% if page.image_banner %}
+    <div class="hero lazyload" data-bg="{{site.url}}/assets/images/posts/{{page.image_banner}}">
     {% else %}
     <div class="hero dark-bg">
   {% endif %}

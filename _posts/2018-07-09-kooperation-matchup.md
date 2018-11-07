@@ -1,7 +1,8 @@
 ---
 layout: post
 title: SmartRain kooperiert mit MAtchUP
-featured-img: smart_rain_header
+image_banner: smart_rain_header_banner.jpg
+image_thumb: smart_rain_header_thumb.jpg
 author: Pierre Karrasch
 ---
 

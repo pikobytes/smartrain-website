@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Regensensor, erste Version
-featured-img: steckbrett
+image_banner: steckbrett_banner.jpg
+image_thumb: steckbrett_thumb.jpg
 author: Matthias Müller
 ---
 ## Regensensor, erste Version

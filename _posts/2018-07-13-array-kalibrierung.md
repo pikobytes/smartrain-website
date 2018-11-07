@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Kalibriermessungen gestartet
-featured-img: array
+image_banner: array_banner.jpg
+image_thumb: array_thumb.jpg
 author: Pierre Karrasch
 ---
 ## Kalibriermessungen gestartet

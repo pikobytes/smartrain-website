@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Erste Testmessungen im Tharandter Wald
-featured-img: TharandtW_001
+image_banner: TharandtW_001_banner.jpg
+image_thumb: TharandtW_001_thumb.jpg
 author: Pierre Karrasch
 ---
 
