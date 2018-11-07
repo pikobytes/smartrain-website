@@ -4,6 +4,7 @@ title: Regensensor, erste Version
 image_banner: steckbrett_banner.jpg
 image_thumb: steckbrett_thumb.jpg
 author: Matthias Müller
+summary: Die Spezifikation für unsere ersten 10 Mess-Systeme ist fertig. Das Design wird derzeit von der Hardwarefertigung geprüft. Die ersten Exemplare erwarten wir noch im September.
 ---
 ## Regensensor, erste Version
 

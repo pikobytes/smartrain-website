@@ -4,6 +4,7 @@ title: SmartRain kooperiert mit MAtchUP
 image_banner: smart_rain_header_banner.jpg
 image_thumb: smart_rain_header_thumb.jpg
 author: Pierre Karrasch
+summary: Der Wirtschafts- und Wissenschaftsstandort Dresden vereinigt die für eine Smart City notwendigen Schlüsseltechnologien. Unter der Agenda „Smart City“ entsteht in der Landeshauptstadt Dresden eine Zukunftsvision für nachhaltiges Leben in einer innovativen Stadt.
 ---
 
 ## SmartRain kooperiert mit MAtchUP

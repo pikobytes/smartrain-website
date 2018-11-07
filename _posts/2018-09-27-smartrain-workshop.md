@@ -4,6 +4,7 @@ title: SmartRain Workshop
 image_banner: workshop_banner.jpg
 image_thumb: workshop_thumb.jpg
 author: Pierre Karrasch
+summary: Am 27.9.2018 fand im World Trade Center (WTC) der Landeshauptstadtstadt Dresden der erste SmartRain Workshop statt. Neben der Stadtverwaltung Dresden nahmen Akteure unterschiedlicher anderer Institutionen an der zweistündigen Veranstaltung teil. So konnten auch die Stadtentwässerung Dresden, der Deutsche Wetterdienst (DWD) und das Landesamt für Umwelt-, Landwirtschaft und Geologie (LfULG) über den aktuellen Fortschritt des Projektes informiert werden.
 ---
 
 ## SmartRain Workshop

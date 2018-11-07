@@ -4,6 +4,7 @@ title: SmartRain Projektstart
 image_thumb: smart_rain_team_thumb.jpg
 image_banner: smart_rain_team_banner.jpg
 author: Pierre Karrasch
+summary: „Dresden fördert innovative Projekte.“ (Q1) Unter diesem Motto hat es sich die Landeshauptstadt Dresden zur Aufgabe gemacht, Projekte zu unterstützen, die innovative Lösungen für Themen und Probleme mit städtischer Relevanz andressieren.
 ---
 
 ## KickOff SmartRain

@@ -4,6 +4,7 @@ title: Erste Testmessungen im Tharandter Wald
 image_banner: TharandtW_001_banner.jpg
 image_thumb: TharandtW_001_thumb.jpg
 author: Pierre Karrasch
+summary: Im Rahmen des an der TU Dresden stattfindenden Seminars „Urbane Geosensornetzwerke“ im Masterstudiengang Geoinformationstechnologien wurden im Sommersemester einfache Sensorstationen mit Niederschlagskippwagen durch die Studierenden entwickelt.
 ---
 
 ## Erste Testmessungen im Tharandter Wald

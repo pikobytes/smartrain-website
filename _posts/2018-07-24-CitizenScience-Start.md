@@ -4,6 +4,7 @@ title: Citizen-Science-Kampagne gestartet
 image_banner: smart_rain_Planung_01_banner.jpg
 image_thumb: smart_rain_Planung_01_thumb.jpg
 author: Pierre Karrasch
+summary: Für den Aufbau eines durch die Dresdner Bürgerschaft getragenen Niederschlagsmessnetzes suchen wir derzeit nach intressierten Bürgern, die bereit sind eine Messstation in ihrem Garten oder auf ihrer Dachtereasse aufzunehmen. 
 ---
 ## Citizen-Science-Kampagne gestartet
 
