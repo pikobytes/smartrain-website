@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Kalibrierung der Niederschlagskipp- waagen
-image_banner: kalibrierung.jpg
-image_thumb: kalibrierung.jpg
+image_banner: kalibrierung_banner.jpg
+image_thumb: kalibrierung_thumb.jpg
 author: Pierre Karrasch
 summary: Neben den bereits seit dem Sommer laufenden Kalibrierungsmessungen der Kippwaagen haben wir für den operativen Einsatz der ersten 10 Messstationen in Dresden auch umfangreiche Laborkalibierungen durchgeführt. Das Ziel der durchgeführten Untersuchungen war es festzustellen, welche Eigenschaften die Niederschlagskippwaage Vantage Pro 2 der Firma DAVIS hat. 
 ---
