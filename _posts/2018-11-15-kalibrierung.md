@@ -21,7 +21,7 @@ Die Analyse erfolgte separat für jedes Instrument. Alle an der Analyse beteilig
 4.	Langsames Einfüllen (tropfenweise) des Wasser in eine der beiden Waagschalen (beginnend an der Seite der Pfahlhalterung, dann wechselseitig) bis Waage kippt.
 5.	Rückführung des verbleibenden Wassers in der Einwegspritze auf die Kalibrierwaage und abwägen der verbleibenden Wassers.
 6.	Differenzbildung der beiden Wägungen.
-7.	Vorsichtiges Trocknen der Waagschalen vor der Kippung. Weiter mit 2.
+7.	Trocknen der Waagschalen vor der Kippung. Weiter mit 2.
 Die initial verwendete Wassermenge spielt für die weiteren Analysen keine Rolle. In die Auswertung fließen allein die Gewichtsdifferenzen vor und nach der jeweiligen Kippung ein.
  
  Untersuchungen mit insgesamt 10 neuen und ungenutzten Exemplaren zeigen, dass für eine Kippung durchschnittlich 0,1594 mm Niederschlag benötigt werden. 
