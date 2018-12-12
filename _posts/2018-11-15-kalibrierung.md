@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kalibrierung der Niederschlagskippwaagen
+title: Kalibrierung der Niederschlagskipp- waagen
 image_banner: kalibrierung.jpg
 image_thumb: kalibrierung.jpg
 author: Pierre Karrasch
