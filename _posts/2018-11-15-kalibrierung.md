@@ -1,11 +1,14 @@
 ---
 layout: post
 title: Kalibrierung der Niederschlagskippwaagen
-featured-img: kalibrierung
+image_banner: kalibrierung.jpg
+image_thumb: kalibrierung.jpg
 author: Pierre Karrasch
+summary: Neben den bereits seit dem Sommer laufenden Kalibrierungsmessungen der Kippwaagen haben wir für den operativen Einsatz der ersten 10 Messstationen in Dresden auch umfangreiche Laborkalibierungen durchgeführt. Das Ziel der durchgeführten Untersuchungen war es festzustellen, welche Eigenschaften die Niederschlagskippwaage Vantage Pro 2 der Firma DAVIS hat. 
 ---
 
- Neben den bereits seit dem Sommer laufenden Kalibrierungsmessungen der Kippwaagen haben wir für den operativen Einsatz der ersten 10 Messstationen in Dresden auch umfangreiche Laborkalibierungen durchgeführt. Das Ziel der durchgeführten Untersuchungen war es festzustellen, welche Eigenschaften die Niederschlagskippwaage Vantage Pro 2 der Firma DAVIS hat. Laut Herstellerangaben sind die für den europäischen Markt gefertigten Geräte auf eine Wassersäule von 0,2 mm je Kippung der Kippwaage geeicht. 
+## Kalibrierung der Niederschlagskippwaagen
+Neben den bereits seit dem Sommer laufenden Kalibrierungsmessungen der Kippwaagen haben wir für den operativen Einsatz der ersten 10 Messstationen in Dresden auch umfangreiche Laborkalibierungen durchgeführt. Das Ziel der durchgeführten Untersuchungen war es festzustellen, welche Eigenschaften die Niederschlagskippwaage Vantage Pro 2 der Firma DAVIS hat. Laut Herstellerangaben sind die für den europäischen Markt gefertigten Geräte auf eine Wassersäule von 0,2 mm je Kippung der Kippwaage geeicht. 
  
  ![Kalibriermessungen der Kippwaagen]({{ '/assets/images/Kalibrierung-Waage.jpg' | prepend: site.baseurl }} "Kalibriermessungen der Kippwaagen")
 *Foto: Pierre Karrasch*
