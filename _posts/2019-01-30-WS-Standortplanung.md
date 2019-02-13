@@ -2,7 +2,7 @@
 layout: post
 title: Workshop zur Standortplanung
 image_banner: Workshop-Standortplanung_banner.jpg
-image_thumb: Workshop-Standortplanung.jpg
+image_thumb: Workshop-Standortplanung_thumb.jpg
 author: Pierre Karrasch
 summary: Vielzahl weiterer Angebote ermöglicht eine weitere Verdichtung des SmartRain-Messnetzes
 ---
