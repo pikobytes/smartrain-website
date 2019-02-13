@@ -4,7 +4,7 @@ title: Workshop zur Standortplanung
 image_banner: Workshop-Standortplanung_banner.jpg
 image_thumb: Workshop-Standortplanung_thumb.jpg
 author: Pierre Karrasch
-summary: Vielzahl weiterer Angebote ermöglicht eine weitere Verdichtung des SmartRain-Messnetzes
+summary: Auf Einladung der Landeshauptstadt Dresden (Amt für Wirtschaftsförderung) fand am 30. Januar 2019 ein Workshop zur Standortplanung im WTC statt
 ---
 
 ## Workshop zur Standortplanung
