@@ -9,6 +9,7 @@ url: "https://smart-rain.de" # the base hostname & protocol for your site, e.g. 
 twitter_username: jekyllrb
 github_username:  jekyll
 ga: UA-66126656-8
+future: false # don't display future posts
 
 # Build settings
 markdown: kramdown
