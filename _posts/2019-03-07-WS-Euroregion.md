@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sitzung der Deutsch-Tschechischen Fachgruppe Euroregion Elbe/Labe
-image_banner: Euroregion2_banner.jpg
+image_banner: Euroregion_banner.jpg
 image_thumb: Euroregion2_thumb.jpg
 author: Pierre Karrasch
 summary: SmartRain präsentiert sich auf der Sitzung der Deutsch-Tschechischen Fachgruppe Euroregion Elbe/Labe 
