@@ -4,7 +4,7 @@ title: Sensorstationen - 2. Generation
 image_banner: board_banner.jpg
 image_thumb: monitor_thumb.jpg
 author: Pierre Karrasch
-summary: Die 2. Generation der Sensorstationen wird aufgebaut
+summary: Die 2. Generation der Sensorstationen wird aufgebaut.
 ---
 
 ## Sensorstationen - 2. Generation
